@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fundamentals\CustomerController.cs" />
     <Compile Include="Fundamentals\HtmlFormatter.cs" />
     <Compile Include="Fundamentals\Math.cs" />
     <Compile Include="Fundamentals\Reservation.cs" />
