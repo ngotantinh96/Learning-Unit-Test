@@ -9,7 +9,7 @@ namespace TestNinJa.Mocking
     public class VideoService
     {
         private IFileReader _fileReader;
-        public VideoService(IFileReader fileReader)
+        public VideoService(IFileReader fileReader = null)
         {
             _fileReader = fileReader ?? new FileReader();
         }
