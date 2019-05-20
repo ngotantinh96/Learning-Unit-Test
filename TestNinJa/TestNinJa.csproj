@@ -63,6 +63,8 @@
     <Compile Include="Fundamentals\Stack.cs" />
     <Compile Include="Fundamentals\User.cs" />
     <Compile Include="Mocking\FileReader.cs" />
+    <Compile Include="Mocking\IStorage.cs" />
+    <Compile Include="Mocking\OrderService.cs" />
     <Compile Include="Mocking\VideoService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
